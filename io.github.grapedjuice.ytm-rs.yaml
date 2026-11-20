@@ -19,7 +19,7 @@ finish-args:
   - --socket=pulseaudio
   - --device=dri
   - --filesystem=xdg-run/app/com.discordapp.Discord:create # Discord RPC
-  - --filesystem=xdg-music/ytm-rs # Default download folder
+  - --filesystem=xdg-music # Default download folder
   - --filesystem=xdg-run/tray-icon:create # AppIndicator icon
   - --talk-name=org.freedesktop.Notifications # Send notifications
   - --talk-name=org.kde.StatusNotifierWatcher # Send notifications
