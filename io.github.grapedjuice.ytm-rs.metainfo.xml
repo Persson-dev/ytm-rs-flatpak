@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.grapedjuice.ytm_rs.ytm_rs</id>
+
+  <name>ytm-rs</name>
+  <summary>YouTube Music, without the browser</summary>
+
+  <metadata_license>GFDL-1.3</metadata_license>
+  <project_license>GPL-3.0-only</project_license>
+
+  <description>
+    <h1>
+      YouTube Music in a fast, native desktop app.
+    </h1>
+    <p>
+      Built in Rust with egui and rodio. No Electron, no browser-based player, and around 130 MB of memory while playing.
+    </p>
+  </description>
+
+  <launchable type="desktop-id">io.github.grapedjuice.ytm-rs.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://github.com/grapedjuice/ytm-rs/raw/main/docs/readme/v2/themes-grid.jp</image>
+    </screenshot>
+    <screenshot>
+      <image>https://github.com/grapedjuice/ytm-rs/raw/main/docs/readme/v2/features.jpg</image>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+      <release date="2026-11-18" version="0.3.4">
+          <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.3.4</url>
+      </release>
+  </releases>
+</component>

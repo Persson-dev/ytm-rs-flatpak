@@ -1,0 +1,54 @@
+app-id: io.github.grapedjuice.ytm-rs
+
+runtime: org.gnome.Platform
+runtime-version: "51"
+sdk: org.gnome.Sdk
+
+# Rust compiler
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.rust-stable
+
+command: ytm-rs
+
+# Permissions
+finish-args:
+  - --share=network
+  - --share=ipc # Discord RPC
+  - --socket=wayland
+  - --socket=fallback-x11
+  - --socket=pulseaudio
+  - --device=dri
+  - --filesystem=xdg-run/app/com.discordapp.Discord:create # Discord RPC
+  - --filesystem=xdg-music/ytm-rs # Default download folder
+  - --filesystem=xdg-run/tray-icon:create # AppIndicator icon
+  - --talk-name=org.freedesktop.Notifications # Send notifications
+  - --talk-name=org.kde.StatusNotifierWatcher # Send notifications
+  - --talk-name=org.freedesktop.secrets # Store YT account password
+  - --own-name=org.mpris.MediaPlayer2.ytm_rs # Media player controls
+
+# Rust options
+build-options:
+  build-args:
+    - --share=network
+  append-path: /usr/lib/sdk/rust-stable/bin
+
+# Build
+modules:
+  - name: ytm-rs
+    buildsystem: simple
+    build-commands:
+      - cargo build --release
+      - install -Dm0755 target/release/ytm-rs ${FLATPAK_DEST}/bin/ytm-rs
+      - install -Dm0644 assets/icon/icon.png ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png
+      - install -Dm0644 linux/ytm-rs.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
+      - install -Dm0644 ${FLATPAK_ID}.metainfo.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml
+      - sed -i -e "s/Icon=.*/Icon=${FLATPAK_ID}/" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
+    sources:
+      - type: git
+        url: https://github.com/grapedjuice/ytm-rs.git
+        tag: "v0.3.4"
+        commit: 7b1207a47aa81ca8fd920b4af147339e9ae9fd06
+      - type: file
+        path: io.github.grapedjuice.ytm-rs.metainfo.xml
+
+  - "shared-modules/libayatana-appindicator/libayatana-appindicator-gtk3.json"
