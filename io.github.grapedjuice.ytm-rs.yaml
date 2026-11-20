@@ -46,8 +46,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/grapedjuice/ytm-rs.git
-        tag: "v0.3.4"
-        commit: 7b1207a47aa81ca8fd920b4af147339e9ae9fd06
+        # tag: "v0.3.4"
+        commit: 81be43e5194728e49b66aed27e00b3a193135b0b
       - type: file
         path: io.github.grapedjuice.ytm-rs.metainfo.xml
 
