@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>io.github.grapedjuice.ytm_rs.ytm_rs</id>
+  <id>io.github.grapedjuice.ytm-rs</id>
 
   <name>ytm-rs</name>
   <summary>YouTube Music, without the browser</summary>
