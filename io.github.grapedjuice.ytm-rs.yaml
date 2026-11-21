@@ -23,7 +23,6 @@ finish-args:
   - --talk-name=org.freedesktop.Notifications # Send notifications
   - --talk-name=org.kde.StatusNotifierWatcher # Send notifications
   - --talk-name=org.freedesktop.secrets # Store YT account password
-  - --talk-name=org.freedesktop.portal.Clipboard # Clipboard copy for Listen Together
   - --own-name=org.mpris.MediaPlayer2.ytm_rs # Media player controls
 
 # Rust options
