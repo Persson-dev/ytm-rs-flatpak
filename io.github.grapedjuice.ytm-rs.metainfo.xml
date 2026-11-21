@@ -209,9 +209,126 @@
   <releases>
     <release date="2026-11-18" version="0.3.4">
       <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.3.4</url>
-      <description>
-        <p>See GitHub releases for the full changelog.</p>
-      </description>
+    </release>
+    <release date="2026-11-14" version="0.3.3">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.3.3</url>
+    </release>
+    <release date="2026-11-14" version="0.3.2">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.3.2</url>
+    </release>
+    <release date="2026-11-13" version="0.3.1">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.3.1</url>
+    </release>
+    <release date="2026-11-10" version="0.3.0">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.3.0</url>
+    </release>
+    <release date="2026-11-08" version="0.2.34">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.34</url>
+    </release>
+    <release date="2026-11-07" version="0.2.33">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.33</url>
+    </release>
+    <release date="2026-11-06" version="0.2.32">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.32</url>
+    </release>
+    <release date="2026-11-04" version="0.2.31">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.31</url>
+    </release>
+    <release date="2026-11-03" version="0.2.30">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.30</url>
+    </release>
+    <release date="2026-11-02" version="0.2.29">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.29.</url>
+    </release>
+    <release date="2026-10-31" version="0.2.28">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.28</url>
+    </release>
+    <release date="2026-10-30" version="0.2.27">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.27</url>
+    </release>
+    <release date="2026-10-29" version="0.2.26">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.26</url>
+    </release>
+    <release date="2026-10-28" version="0.2.25">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.25</url>
+    </release>
+    <release date="2026-10-26" version="0.2.24">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.24</url>
+    </release>
+    <release date="2026-10-25" version="0.2.23">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.23</url>
+    </release>
+    <release date="2026-10-24" version="0.2.22">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.22</url>
+    </release>
+    <release date="2026-10-23" version="0.2.21">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.21</url>
+    </release>
+    <release date="2026-10-22" version="0.2.20">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.20</url>
+    </release>
+    <release date="2026-10-20" version="0.2.19">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.19</url>
+    </release>
+    <release date="2026-10-17" version="0.2.18">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.18</url>
+    </release>
+    <release date="2026-10-17" version="0.2.17">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.17</url>
+    </release>
+    <release date="2026-10-17" version="0.2.16">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.16</url>
+    </release>
+    <release date="2026-10-16" version="0.2.15">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.15</url>
+    </release>
+    <release date="2026-10-15" version="0.2.14">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.14</url>
+    </release>
+    <release date="2026-10-14" version="0.2.13">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.13</url>
+    </release>
+    <release date="2026-10-13" version="0.2.12">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.12</url>
+    </release>
+    <release date="2026-10-12" version="0.2.11">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.11</url>
+    </release>
+    <release date="2026-10-11" version="0.2.10">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.10</url>
+    </release>
+    <release date="2026-10-11" version="0.2.9">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.9</url>
+    </release>
+    <release date="2026-10-11" version="0.2.8">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.8</url>
+    </release>
+    <release date="2026-10-09" version="0.2.7">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.7</url>
+    </release>
+    <release date="2026-10-08" version="0.2.6">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.6</url>
+    </release>
+    <release date="2026-10-08" version="0.2.5">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.5</url>
+    </release>
+    <release date="2026-10-07" version="0.2.4">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.4</url>
+    </release>
+    <release date="2026-10-07" version="0.2.3">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.3</url>
+    </release>
+    <release date="2026-10-07" version="0.2.2">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.2</url>
+    </release>
+    <release date="2026-10-07" version="0.2.1">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.1</url>
+    </release>
+    <release date="2026-10-07" version="0.2.0">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.2.0</url>
+    </release>
+    <release date="2026-10-07" version="0.1.0">
+      <url type="details">https://github.com/grapedjuice/ytm-rs/releases/tag/v0.1.0</url>
     </release>
   </releases>
 </component>
