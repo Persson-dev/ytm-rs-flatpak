@@ -20,7 +20,6 @@ finish-args:
   - --device=dri
   - --filesystem=xdg-run/app/com.discordapp.Discord:create # Discord RPC
   - --filesystem=xdg-music # Default download folder
-  - --filesystem=xdg-run/tray-icon:create # AppIndicator icon
   - --talk-name=org.freedesktop.Notifications # Send notifications
   - --talk-name=org.kde.StatusNotifierWatcher # Send notifications
   - --talk-name=org.freedesktop.secrets # Store YT account password
@@ -48,7 +47,7 @@ modules:
       - type: git
         url: https://github.com/grapedjuice/ytm-rs.git
         # tag: "v0.3.4"
-        commit: 81be43e5194728e49b66aed27e00b3a193135b0b
+        commit: d48cc2648e773a9f28867a930f0d952075839a65
       - type: file
         path: io.github.grapedjuice.ytm-rs.metainfo.xml
 
